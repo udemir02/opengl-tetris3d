@@ -1,5 +1,5 @@
 global U32 major   = 3;
-global U32 minor   = 0;
+global U32 minor   = 3;
 global char *title = (char *)"Tetris3D";
 
 global F32 cube_vertex[] = {

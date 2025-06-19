@@ -250,7 +250,7 @@ static Bounding_Box get_bounding_box(V3 upper_bound, V3 scale) {
     return box;
 }
 
-static void check_collision(State *state, Window *window) {
+static void check_collision(State *state) {
     Entity *active = get_active_entity(state);
 
     for (S32 i = 0; i < state->inactive_index_size; i++) {
@@ -391,7 +391,7 @@ void game_update_render(Input *input, Buffer *buffer, Memory *memory, Window win
 
 
     process_input(input, state, &window);
-    check_collision(state, &window);
+    check_collision(state);
 
     Entity *active = get_active_entity(state);
 
