@@ -2,7 +2,10 @@
 
 **Currently only tested on a Linux system**
 
-<video src="~/tetris.mkv" width="320" height="240" controls></video>
+<figure class="video_container">
+  <iframe src="tetris.mp4" frameborder="0" allowfullscreen="true">
+</iframe>
+</figure>
 
 #### Dependencies:
 - GLFW
