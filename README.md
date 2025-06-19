@@ -2,10 +2,7 @@
 
 **Currently only tested on a Linux system**
 
-<figure class="video_container">
-  <iframe src="tetris.mp4" frameborder="0" allowfullscreen="true">
-</iframe>
-</figure>
+https://github.com/user-attachments/assets/db367924-d40e-41d7-ba95-33e742620a9e
 
 #### Dependencies:
 - GLFW
